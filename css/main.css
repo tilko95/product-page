@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+* {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  font-family: "Comfortaa";
+  position: absolute;
+  width: 100%;
+}
+.car {
+  height: 50px;
+  width: 130px;
+  margin-left: 100px;
+}
+.naslov {
+  font-size: 40px;
+  text-decoration: none;
+  font-family: "Comfortaa";
+  color: black;
+  letter-spacing: 0.2em;
+}
+span {
+  color: rgb(59, 113, 230);
+}
+@media (max-width: 650px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid rgb(59, 113, 230);
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+@media (max-width: 650px) {
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+}
+.list-items li {
+  display: inline-block;
+  width: auto;
+  text-align: right;
+  position: relative;
+}
+.list-items li a {
+  transition: ease 0.4s;
+}
+.list-items li a:hover {
+  color: rgb(59, 113, 230);
+  text-decoration: underline;
+}
+#single {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.samo-opis {
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+  line-height: 1.4em;
+}
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+  }
+}
+#recording {
+  margin-top: 100px;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 100px;
+}
+@media (max-width: 650px) {
+  .skupaj {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 650px) {
+  .exterior-design,
+  .interior-design {
+    flex-wrap: wrap;
+    min-width: 300px;
+    min-height: 300px;
+  }
+}
+@media (max-width: 650px) {
+  h2 {
+    min-width: 25%;
+  }
+}
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+  border: rgb(59, 113, 230);
+  padding: 10px;
+}
+.opis {
+  width: 50%;
+  margin-left: 25%;
+  padding: 5px;
+}
+.interior-design,
+.exterior-design {
+  width: 800px;
+  height: 600px;
+}
+.skupaj {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(59, 113, 230);
+  margin-bottom: 100px;
+}
+.skupaj li {
+  text-decoration: dotted;
+  overflow: visible;
+  list-style: initial;
+  font-size: 20px;
+  color: aliceblue;
+}
+button {
+  display: block;
+  position: relative;
+  top: 25%;
+  left: 25%;
+  text-align: center;
+  font-size: 30px;
+  width: fit-content;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  border: black 3px solid;
+}
+#avto-1 {
+  margin-top: 50px;
+}
+#zunanjost {
+  border: 3px solid black;
+  border-radius: 0px 15px 15px 0px;
+  color: white;
+  background-color: black;
+  width: 20%;
+  text-align: center;
+  font-size: 30px;
+}
+.interior-design {
+  border-radius: 30px 0px 0px 30px;
+}
+.interior-part {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(59, 113, 230);
+}
+.interior-part li {
+  text-decoration: dotted;
+  overflow: visible;
+  list-style: initial;
+  font-size: 20px;
+  color: aliceblue;
+}
+.podnaslov {
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 15px 0px 0px 15px;
+  color: white;
+  background-color: black;
+  width: 20%;
+  float: right;
+  font-size: 30px;
+}
+.exterior-design {
+  width: 800px;
+  border-radius: 0px 30px 30px 0px;
+}
+.avto-2 {
+  margin-top: 50px;
+}
+#avto-slika-2 {
+  margin-bottom: 10em;
+}
+.container {
+  display: grid;
+  margin-bottom: 10em;
+  text-align: left;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  border: 5px solid rgb(59, 113, 230);
+  padding: 20px;
+}
+#form-link {
+  margin-bottom: 50px;
+  text-align: center;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+#submit {
+  background-color: rgb(59, 113, 230);
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: none;
+  margin-bottom: 5em;
+  border-radius: 5em;
+  display: inline-block;
+  padding: 0.8em 2em;
+  width: unset;
+  cursor: pointer;
+}
+.forma {
+  height: 300px;
+  margin-bottom: 200px;
+}
+.foot {
+  background-color: rgb(59, 113, 230);
+  height: 150px;
+}
+.inside {
+  text-align: center;
+  padding-top: 75px;
+  color: white;
+}
+.forma p {
+  margin-bottom: 20px;
+  font-size: 25px;
+  border: 3px solid black;
+  border-radius: 0px 15px 15px 0px;
+  color: white;
+  background-color: black;
+  width: 40%;
+  text-align: center;
+}

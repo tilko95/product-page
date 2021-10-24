@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product landing page</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <header id="header">
+        <nav id="nav-bar">
+            <a class="naslov" href="#"><span>Car</span>Parts</a>
+            <a href="#"><img id="header-img" class="car" src="images/car.png" alt="car logo"></a>
+            <ul class="list-items">
+                <li id="triple"><a class="nav-link" href="#naslov">About us</a></li>
+                <li id="single"><a class="nav-link" href="#zunanjost">Exterior</a></li>
+                <li id="double"><a class="nav-link" href="#where-are-we">Our Location</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="samo-opis">
+        <h1 id="naslov">About us</h1>
+        <div class="opis">
+            <p>We are a proud company that delivers great product. The car industry has always been a high priority for our customers,
+                therefore we deliver only perfection not only on the exterior design of our cars but also we go in to great details in interiors.
+                you can pick a model of your choice and we can customize the whole design to your needs and wishes.
+            </p>
+        </div>
+        <div id="recording">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/mLlnkUMzRPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="avto-slika">
+        <div class="container-3">
+
+            <h2 id="zunanjost">Exterior</h2>
+            <div class="skupaj">
+                <ul>
+                    <li id="avto-1">
+                        We calibrate every aspect of exterior design
+                    </li>
+                    <li id="avto-1">
+                        Our genius engineers are the best in the world
+                    </li>
+                    <li id="avto-1">
+                        More than 200 available exterior colors for you to choose
+                    </li>
+                    <li id="avto-1">
+                        Premium colors now added for limited time
+                    </li>
+                    <button>Configurator</button>
+                </ul>
+                
+                <img class="interior-design" src="images/prototype-1.jpeg" alt="exterior design">
+            </div>
+        </div>
+
+        <div id="avto-slika-2">
+            <h2 class="podnaslov">Interior</h2>
+            <div class="interior-part">
+                <img class="exterior-design" src="images/future.jpeg" alt="interior design">
+                <ul>
+                    <li class="avto-2">
+                    Modern and futuristic feel to your needs
+                    </li>
+                    <li class="avto-2">
+                        You can customize the RGB lighting system inside the interior
+                    </li>
+                    <li class="avto-2">
+                        Over 100 different materials for more comfort
+                    </li>
+                    <li class="avto-2">
+                        Choose your poison
+                    </li>
+                </ul>
+            </div>    
+
+        </div>
+    </section>
+    <section class="form-group">
+        <div class="container">
+            <h2 id="form-link">Contact form</h2>
+            <form action="" class="obrazec" id="form">
+                <label class="input-text" for="name">Name</label>
+                <input name="name" class="input-text" type="name" placeholder="Enter your name" required>
+
+                <label class="input-text" for="email">Email</label>
+                <input name="email" id="email" class="input-text" type="email" placeholder="Enter your email" required>
+
+                <label class="input-text" for="last-name">Last name</label>
+                <input name="Last name" class="input-text" type="text" placeholder="Enter your last name" required>
+
+                <label for="comment">Leave us your feedback</label>
+                <textarea name="comment" id="komentar" cols="30" rows="10"></textarea>
+                
+                <a href="https://www.freecodecamp.com/email-submit">
+                <input id="submit" type="submit" class="button">
+                
+                </a>
+            </form>
+        </div>
+        <div class="forma">
+            <p>Here you can check out our location</p>
+            <iframe id="where-are-we" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52864.826626841124!2d-118.36149760623144!3d34.09381691144654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf07045279bf%3A0xf67a9a6797bdfae4!2sHollywood%2C%20Los%20Angeles%2C%20Kalifornija%2C%20Zdru%C5%BEene%20dr%C5%BEave%20Amerike!5e0!3m2!1ssl!2ssi!4v1634987604713!5m2!1ssl!2ssi" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+            <div class="inside">
+                <p>Copyright, Carparts 2021</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
